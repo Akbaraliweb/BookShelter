@@ -1,0 +1,78 @@
+body {
+  background-image: url("../image/Login.jpg");
+}
+
+.BookShelter {
+  padding-left: 600px;
+  padding-top: 200px;
+}
+
+.user_div {
+  position: absolute;
+  left: 580px;
+  top: 292px;
+}
+
+.input-username {
+  background-image: url("../image/Login.jpg");
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding-left: 51px;
+  width: 300px;
+  height: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.user {
+  display: block;
+  position: absolute;
+  margin: 13px 12px 12px 12px;
+}
+
+.pass_div {
+  position: absolute;
+  left: 580px;
+  top: 360px;
+}
+
+.input-password {
+  background-image: url("../image/Login.jpg");
+  background-repeat: no-repeat;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding-left: 51px;
+  width: 300px;
+  height: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.pass {
+  display: block;
+  position: absolute;
+  margin: 13px 12px 12px 12px;
+}
+
+.login-btn {
+  border-radius: 4px;
+  border: 1px solid #0d75ff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d75ff;
+  margin-top: 195px;
+  margin-left: 570px;
+  width: 358px;
+  height: 45px;
+}
+
+.text {
+  margin-left: 810px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+}

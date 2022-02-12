@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/html.css" />
+    <title>Akabarli</title>
+  </head>
+
+  <body>
+    <div class="site-body">
+      <div class="header">
+        <img class="book_img" src="./image/Group.svg" alt="book_img" />
+        <input
+          class="input"
+          type="text"
+          placeholder="Search books"
+          name="movie"
+          required
+        />
+        <a
+          class="Logout_link"
+          href="file:///C:/Users/Akbarali/Desktop/javascript/login/login.html"
+        >
+          <p class="Logout">Logout</p>
+        </a>
+      </div>
+      <ul class="list"></ul>
+      <div class="pages">
+        <a href="#1" class="btn-minus-ten btn-top">Prev -10</a>
+        <button class="prev-btn btn page__btn">Prev</button>
+        <div class="buttons"></div>
+        <button class="next-btn btn page__btn">Next</button>
+      </div>
+
+      <template class="template">
+        <li class="film">
+          <img
+            class="film__img"
+            src="https://via.placeholder.com/100"
+            alt="movie img"
+            width="200"
+            height="200"
+          />
+          <h3 class="film__title">Movie Title</h3>
+          <p class="film__year">2022</p>
+          <p class="film__type">Movie</p>
+          <div class="button_div">
+            <a href="#">
+              <button class="bookmark">Bookmark</button>
+              <button class="more_info">More Info</button>
+            </a>
+          </div>
+        </li>
+      </template>
+    </div>
+
+    <div
+      class="loading"
+      style="
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      "
+    ></div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
